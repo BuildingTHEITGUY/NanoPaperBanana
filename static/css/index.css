@@ -1,6 +1,16 @@
 body {
   font-family: 'Noto Sans', sans-serif;
 }
+/* Ensure boxes have the same height */
+@media screen and (min-width: 1024px) {
+  .columns.is-desktop > .column {
+    display: flex;
+  }
+  
+  .columns.is-desktop > .column .box {
+    width: 100%;
+  }
+}
 /* Margin utilities */
 .mt-2 { margin-top: 0.5rem; }
 .mt-4 { margin-top: 1rem; }
@@ -182,5 +192,6 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
 
 
