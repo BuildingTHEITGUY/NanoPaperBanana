@@ -1,6 +1,17 @@
 body {
   font-family: 'Noto Sans', sans-serif;
 }
+/* Margin utilities */
+.mt-2 { margin-top: 0.5rem; }
+.mt-4 { margin-top: 1rem; }
+.my-5 { margin-top: 2rem; margin-bottom: 2rem; }
+
+/* Box styling */
+.box {
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+  padding: 1.25rem;
+}
 
 
 .footer .icon-link {
@@ -155,3 +166,4 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
